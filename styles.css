@@ -117,7 +117,11 @@ h1.name {
 }
 
 img {
-  	float: right;
+  	float: right
+	width: 300px;
+        padding: 2px;
+        border: 3px solid #1c87c9;
+        border-radius: 15px 50px 800px 5px;
 }
 
 .email {
