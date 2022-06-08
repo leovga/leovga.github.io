@@ -116,6 +116,10 @@ h1.name {
 	padding: 15px 25px;
 }
 
+.img {
+  	float: right;
+}
+
 .email {
 	display: block;
 	font-size: 24px;
