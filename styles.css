@@ -119,9 +119,8 @@ h1.name {
 img {
   	float: right
 	width: 300px;
-	margin-left: 50px;
+	margin-left: 200px;
         padding: 2px;
-        border-radius: 60%;
 }
 
 .email {
