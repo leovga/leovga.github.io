@@ -117,10 +117,9 @@ h1.name {
 }
 
 img {
-  	float: right
+  	float: right;
 	width: 300px;
 	margin-left: 400px;
-	margin-top: 200px;
         padding: 2px;
 }
 
