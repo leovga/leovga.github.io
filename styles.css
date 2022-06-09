@@ -121,7 +121,7 @@ img {
 	width: 300px;
 	margin-left: 20px;
         padding: 2px;
-        border-radius: 15px 50px 800px 5px;
+        border-radius: 50%;
 }
 
 .email {
