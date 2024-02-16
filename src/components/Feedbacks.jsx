@@ -14,16 +14,21 @@ name, designation, company, image}) => (
     className="text-white font-black text-[48px]">"</p>
     
     <div className="mt-1">
-      <p>{testimonial}</p>
-    </div>
-
-    <div
-    className="mt-7 flex justify-between items-center gap-1"
-    >
-      <div className="flex-1 flex flex-col">
-        <p>
-          <span>@</span>{name}
-        </p>
+      <p className="text-white tracking-wider text-[18px]">{testimonial}</p>
+    
+      <div
+      className="mt-7 flex justify-between items-center gap-1"
+      >
+        <div className="flex-1 flex flex-col">
+          <p>
+            <span className="blue-text-gradient">@</span>{name}
+          </p>
+          <p className="mt-1 text-secondary text-[12px]">
+            {designation} of {company}
+          </p>
+        </div>
+        <img src={image} alt={`feedback-by-${name}`}
+        className="w-10 h-10 rounded-full object-cover"/>
       </div>
     </div>
     
@@ -58,4 +63,4 @@ const Feedbacks = () => {
   )
 }
 
-export default Feedbacks
+export default SectionWrapper(Feedbacks, "");
